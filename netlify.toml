@@ -1,0 +1,8 @@
+[build]
+  command = "npm run generate"
+  publish = "dist"
+[build.environment]
+  NPM_VERSION = "6.8.0"
+  
+[context.deploy-preview]
+  Command = "npm run generate"
