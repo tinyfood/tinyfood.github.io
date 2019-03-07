@@ -6,7 +6,7 @@ publish_mode: editorial_workflow
 
 # This line should *not* be indented
 media_folder: "static/uploads"
-public_folder: "/images/uploads"
+public_folder: "/uploads"
 
 collections:
   - name: farmers
